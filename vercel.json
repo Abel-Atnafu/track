@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd ironpath-tracker && npm install && npm run build",
+  "outputDirectory": "ironpath-tracker/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}
